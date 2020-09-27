@@ -16,6 +16,7 @@ jobs:
         with:
           name: house
           preset: html5
+          projectDir: game
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
