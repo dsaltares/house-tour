@@ -14,7 +14,7 @@ jobs:
         id: build
         uses: josephbmanley/build-godot-action@v1.4.0
         with:
-          name: house
+          name: index.html
           preset: html5
           projectDir: game
       - name: Deploy
